@@ -1,1 +1,1 @@
-# JavaAppiumAutomation
+# JavaAppiumAutomation-test

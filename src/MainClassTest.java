@@ -4,10 +4,10 @@ import org.junit.Test;
 public class MainClassTest extends MainClass
 {
     @Test
-    public void testGetClassNumber()
+    public void testGetClassString()
     {
-        int a = this.getClassNumber();
+        String a = this.getClassString();
 
-         Assert.assertTrue("getClassNumber returns int < 45",a >= 45);
+        Assert.assertTrue("getClassString doesn't return hello or Hello",a == "Hello, world");
     }
 }
